@@ -8,10 +8,10 @@ function App() {
   return (
     <>
         {/*<h1>State Demo</h1>*/}
-        <EmojiClicker />
+        {/*<EmojiClicker />*/}
         {/*<Counter />*/}
         {/*<Dumbo />*/}
-        {/*<ScoreKeeper/>*/}
+        <ScoreKeeper numPlayers={5} target={5}/>
     </>
   )
 }
