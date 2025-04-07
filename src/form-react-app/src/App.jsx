@@ -1,14 +1,14 @@
 import './App.css'
-import UsernameForm from "./UsernameForm.jsx";
-import SignupForm from "./SignupForm.jsx";
-import BetterSignupForm from "./BetterSignupForm.jsx";
+
+import ShoppingList from "./ShoppingList.jsx";
 
 function App() {
   return (
     <>
+        <ShoppingList/>
       {/*<UsernameForm />*/}
       {/*  <SignupForm/>*/}
-        <BetterSignupForm/>
+      {/*  <BetterSignupForm/>*/}
     </>
   )
 }
